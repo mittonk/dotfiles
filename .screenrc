@@ -1,0 +1,1 @@
+caption always "%{-b ..}%-w%{+b ..}[[%n%f*%t]]%{-}%+w"
