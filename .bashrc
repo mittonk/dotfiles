@@ -120,6 +120,9 @@ export PATH="$PATH:/home/pi/.local/bin:/home/pi/x-tools/arm-kindlepw2-linux-gnue
 
 alias ls='ls -FC'
 alias t='tmux attach'
+alias pi1='ssh pi@pi1.local'
+alias pi2='ssh pi@pi2.local'
+alias pi3='ssh pi@pi3.local'
 alias kindle='ssh root@10.0.0.15'
 alias vncs='vncserver-virtual -Authentication None :1'
 alias novncs='vncserver-virtual -kill :1'
