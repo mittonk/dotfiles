@@ -130,4 +130,4 @@ alias tmuxsize='tmux display -p "#{pane_width}x#{pane_height}" '
 alias brightness='kindle -- /mnt/us/extensions/kterm/brightness'
 alias esdiff='sudo vimdiff /opt/retropie/configs/all/emulationstation/es_systems.cfg /etc/emulationstation/es_systems.cfg'
 
-. "$HOME/.cargo/env"
+#. "$HOME/.cargo/env"
