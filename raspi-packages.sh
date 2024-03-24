@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo apt install tmux vim mosh irssi elinks
+sudo apt install tmux vim mosh irssi elinks simh
