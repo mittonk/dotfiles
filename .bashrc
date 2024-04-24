@@ -131,6 +131,8 @@ alias chromium2='chromium-browser --user-data-dir=.config/chromium2'
 alias wttr='curl wttr.in?T1nF'
 alias tmuxsize='tmux display -p "#{pane_width}x#{pane_height}" '
 alias brightness='kindle -- /mnt/us/extensions/kterm/brightness'
+alias b0='brightness 0'
+alias b1='brightness 100'
 alias esdiff='sudo vimdiff /opt/retropie/configs/all/emulationstation/es_systems.cfg /etc/emulationstation/es_systems.cfg'
 
 #. "$HOME/.cargo/env"
