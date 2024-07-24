@@ -134,5 +134,7 @@ alias brightness='kindle -- /mnt/us/extensions/kterm/brightness'
 alias b0='brightness 0'
 alias b1='brightness 100'
 alias esdiff='sudo vimdiff /opt/retropie/configs/all/emulationstation/es_systems.cfg /etc/emulationstation/es_systems.cfg'
+#alias i='sudo pacman -S'
+alias ed='ed -v -p:'
 
 #. "$HOME/.cargo/env"
