@@ -60,7 +60,7 @@ fi
 #color_prompt=
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -116,13 +116,15 @@ if ! shopt -oq posix; then
 fi
 
 # Created by `pipx` on 2024-03-01 03:11:04
-export PATH="$PATH:/home/pi/.local/bin:/home/pi/x-tools/arm-kindlepw2-linux-gnueabi/bin"
+#export PATH="$PATH:/home/pi/.local/bin:/home/pi/x-tools/arm-kindlepw2-linux-gnueabi/bin"
 
 alias ls='ls -FC'
 alias t='tmux attach'
 alias pi1='ssh pi@pi1.local'
-alias pi2='ssh pi@pi2.local'
-alias pi3='ssh pi@pi3.local'
+alias pi2='ssh mittonk@pi2.local'
+alias pi3='ssh mittonk@pi3.local'
+alias mosh2='mosh mittonk@pi2.local'
+alias mosh3='mosh mittonk@pi3.local'
 alias kindle='ssh root@10.0.0.15'
 alias bato='ssh root@bato.local'
 alias vncs='vncserver-virtual -Authentication None :1 -geometry 768x1024'
@@ -131,7 +133,7 @@ alias fixfont='setfont /usr/share/consolefonts/Uni2-TerminusBold32x16.psf.gz'
 alias fixfont2='setfont /usr/share/consolefonts/Uni2-Terminus32x16.psf.gz'
 # Arch fonts
 alias fixfont3='setfont ter-g24n.psf.gz'
-alias chromium2='chromium-browser --user-data-dir=.config/chromium2'
+#alias chromium2='chromium-browser --user-data-dir=.config/chromium2'
 alias wttr='curl wttr.in?T1nF'
 alias tmuxsize='tmux display -p "#{pane_width}x#{pane_height}" '
 alias dfx='df -h -x tmpfs'
