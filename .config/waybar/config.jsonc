@@ -32,8 +32,8 @@
         //"sway/language",
         "battery",
         //"battery#bat2",
-        "clock" //,
-        //"tray",
+        "clock",
+        "tray"
         //"custom/power"
     ],
     // Modules configuration
@@ -106,7 +106,7 @@
         }
     },
     "tray": {
-        // "icon-size": 21,
+        "icon-size": 21,
         "spacing": 10
     },
     "clock": {
@@ -173,7 +173,8 @@
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}",
-        "on-click": "iwgtk"
+        //"on-click": "iwgtk"
+        "on-click": "nm-applet"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
