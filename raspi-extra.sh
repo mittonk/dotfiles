@@ -1,7 +1,4 @@
 #!/bin/bash
-# EDC
-sudo apt install tmux vim mosh dnsutils elinks gh
-
 # Sway
 sudo apt install sway waybar fonts-font-awesome sway-backgrounds
 
