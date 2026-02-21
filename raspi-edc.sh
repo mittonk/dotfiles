@@ -1,3 +1,3 @@
 #!/bin/bash
 # EDC
-sudo apt install tmux vim mosh dnsutils elinks gh
+sudo apt install tmux vim mosh dnsutils elinks gh locate
