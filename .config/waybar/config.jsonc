@@ -2,8 +2,8 @@
 {
     // "layer": "top", // Waybar at top layer
     // "position": "bottom", // Waybar position (top|bottom|left|right)
-    //KAM "height": 30, // Waybar height (to be removed for auto height)
-    "height": 24, // Waybar height (to be removed for auto height)
+    "height": 30, // Waybar height (to be removed for auto height)
+    //KAM "height": 24, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
@@ -182,7 +182,7 @@
         "format": "{volume}% {icon}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
+        "format-muted": " {format_source}", // " {format_source}",
         "format-source": "{volume}% ",
         "format-source-muted": "",
         "format-icons": {
