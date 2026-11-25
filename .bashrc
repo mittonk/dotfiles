@@ -149,3 +149,6 @@ alias ed='ed -v -p:'
 alias grp='grep -Iir'
 
 #. "$HOME/.cargo/env"
+alias zeptoforth='picocom -b 115200 /dev/cu.usb*'
+alias picomite='picocom -b 115200 --omap delbs /dev/cu.usb*'
+alias quintus='picocom -b 115200 --imap lfcrlf,crcrlf --omap delbs,crlf /dev/cu.usb*'
