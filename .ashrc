@@ -29,6 +29,6 @@ alias ed='ed -v -p:'
 alias grp='grep -Iir'
 
 
-alias zeptoforth='picocom -b 115200 /dev/cu.usb*'
-alias picomite='picocom -b 115200 --omap delbs /dev/cu.usb*'
-alias quintus='picocom -b 115200 --imap lfcrlf,crcrlf --omap delbs,crlf /dev/cu.usb*'
+alias zeptoforth='picocom -b 115200 /dev/ttyACM0'
+alias picomite='picocom -b 115200 --omap delbs /dev/ttyACM0'
+alias quintus='picocom -b 115200 --imap lfcrlf,crcrlf --omap delbs,crlf /dev/ttyACM0'
