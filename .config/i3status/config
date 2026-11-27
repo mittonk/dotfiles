@@ -27,7 +27,8 @@ wireless _first_ {
 
 ethernet _first_ {
         format_up = "E: %ip (%speed)"
-        format_down = "E: down"
+        #format_down = "E: down"
+        format_down = ""
 }
 
 battery all {
@@ -43,11 +44,13 @@ load {
 }
 
 memory {
-        format = "%used | %available"
+        #format = "%used | %available"
+        format = ""
         threshold_degraded = "1G"
         format_degraded = "MEMORY < %available"
 }
 
 tztime local {
-        format = "%Y-%m-%d %H:%M:%S"
+        #format = "%Y-%m-%d %H:%M:%S"
+        format = "%H:%M"
 }
